@@ -1,0 +1,17 @@
+{
+  "name": "responsiveloading",
+  "version": "1.0.0",
+  "description": "Loading Responsive",
+  "main": "index.js",
+  "homepage": "https://SURYA-JLT.github.io/loadingResponsive",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o load/css --recursive",
+    "deploy": "gh-pages -d load"
+  },
+  "author": "Surya Rahmanda",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.0"
+  }
+}
