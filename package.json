@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Loading Responsive",
   "main": "index.js",
-  "homepage": "https://SURYA-JLT.github.io/loadingResponsive",
+  "homepage": "https://loadingResponsive.github.io",
   "scripts": {
     "sass": "node-sass -w scss/ -o load/css --recursive",
     "deploy": "gh-pages -d load"
