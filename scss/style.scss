@@ -1,8 +1,8 @@
 $primary-color:#444;
+@import 'config';
+@import 'mobile';
 
 body {
-    margin: 0;
-    padding: 0;
     background: burlywood;
 }
 
@@ -14,7 +14,7 @@ body {
     width: 150px;
     height: 150px;
     background: transparent;
-    border: 3px solid #33cc33;
+    border: 3px solid #3c3c3c;
     border-radius: 50%;
     text-align: center;
     line-height: 150px;
@@ -44,7 +44,7 @@ body {
 span {
     display: block;
     position: absolute;
-    top: calc(50%, -2px);
+    top: calc(50% - 2px);
     left: 50%;
     width: 50%;
     height: 4px;
